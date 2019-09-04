@@ -1,6 +1,8 @@
 package com.example.countries.Retrofit
 
-import com.example.countries.model.oceanmodel
+
+import com.example.countries.model.OceaniaCountry
+import com.example.countries.model.OceaniaModelList
 import com.google.gson.GsonBuilder
 import retrofit2.Call
 import retrofit2.Retrofit
@@ -9,11 +11,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 class OceaniaCountriesRetriever {
 
     companion object {
-        private const val TAG = "RETRIEVER"
-        internal const val BASE_URL = "https://restcountries.eu/"
+
+        internal const val BASE_URL = "https://restcountries.eu/rest/v2/"
     }
 
-    fun getOceaniaCountries(): Call<oceanmodel> {
+    fun getOceaniaCountries(): Call<List<OceaniaModelList>> {
         val gson = GsonBuilder()
             .setLenient()
             .create()

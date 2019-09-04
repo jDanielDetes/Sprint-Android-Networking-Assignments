@@ -2,11 +2,13 @@ package com.example.countries.Retrofit
 
 import android.telecom.Call
 
-import com.example.countries.model.oceanmodel
+
+
+import com.example.countries.model.OceaniaModelList
 import retrofit2.http.GET
 
 interface OceaniaCountriesAPI {
 
-    @GET("rest/v2/region/Oceania")
-    fun getCountries(): Call<oceanmodel>
+    @GET("regionalbloc/eu")
+    fun getCountries(): retrofit2.Call<List<OceaniaModelList>>
 }

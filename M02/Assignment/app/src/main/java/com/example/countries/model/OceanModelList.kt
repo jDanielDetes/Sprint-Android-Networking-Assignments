@@ -1,12 +1,8 @@
 package com.example.countries.model
 
-data class oceanmodel {
-    val country: List<OceaniaCountry>
-
-}
 
 
-data class OceaniaCountry (
+data class OceaniaModelList (
     val name: String,
     val alpha2Code: String,
     val alpha3Code: String,
