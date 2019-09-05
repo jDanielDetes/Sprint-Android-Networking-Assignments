@@ -1,7 +1,9 @@
 package com.example.httpoperations.Retrofit
 
+import com.example.httpoperations.model.Employee
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
@@ -10,11 +12,17 @@ import java.util.concurrent.TimeUnit
 
 interface JsonPlaceHolderAPI {
 
+    @GET("employees")
+    fun getEmployees(): Call<List<Employee>>
+
+
+
     @GET("employees/{id}")
     fun getEmployeesById(@Path("id")employeeId: String)
 
+    @GET("empoyees")
+    fun getEmployeesByAge(employeeId: String) : Call<List<Employee>>
 
-    fun getEmployeesByAge(employeeId: String)
 
     class Factory {
 
