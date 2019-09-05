@@ -19,7 +19,7 @@
         app:srcCompat="@android:color/transparent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button1"
         android:layout_width="186dp"
         android:layout_height="55dp"
         android:text="Button"

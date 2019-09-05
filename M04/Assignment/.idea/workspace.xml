@@ -7,23 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e4ccf1f-bd43-4bab-aa53-e3ce44a33647" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/app/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/app/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/app/build/kotlin/compileDebugKotlin/dirty-sources.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/app/src/main/java/com/lambdaschool/httpoperations/HttpGetActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/app/src/main/java/com/lambdaschool/httpoperations/HttpGetActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/GuidedProject/app/src/main/java/com/lambdaschool/httpoperations/retrofit/JsonPlaceHolderApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/GuidedProject/app/src/main/java/com/lambdaschool/httpoperations/retrofit/JsonPlaceHolderApi.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/HttpOperations/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/HttpOperations/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/HttpOperations/app/src/main/java/com/example/httpoperations/GETACTIVITY.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/HttpOperations/app/src/main/java/com/example/httpoperations/GETACTIVITY.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/HttpOperations/app/src/main/java/com/example/httpoperations/GETPICKERACTIVITY.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/HttpOperations/app/src/main/java/com/example/httpoperations/GETPICKERACTIVITY.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../M03/HttpOperations/app/src/main/java/com/example/httpoperations/Retrofit/JsonPlaceHolderAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../M03/HttpOperations/app/src/main/java/com/example/httpoperations/Retrofit/JsonPlaceHolderAPI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +37,12 @@
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -72,16 +61,16 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/NetworkAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/FileService.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#43#172#0" expanded="true" />
               </folding>
@@ -89,9 +78,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/MainActivity.kt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -122,10 +115,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/BitmapUtils.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/NetworkAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/FileService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/MainActivity.kt" />
       </list>
     </option>
   </component>
@@ -186,6 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/New folder (2)/Sprint-Android-Networking-Assignments-master/M04/GuidedProject" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
@@ -308,9 +303,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -318,10 +310,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/BitmapUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -336,17 +324,32 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/NetworkAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/FileService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#43#172#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/servicesandbroadcasts/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>
