@@ -14,6 +14,14 @@ class FileService : Service(){
         const val DOWNLOADED_IMAGE = "downloadedImage"
     }
 
+    override fun onCreate() {
+        super.onCreate()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
 
         Thread(Runnable(){
@@ -30,7 +38,7 @@ class FileService : Service(){
 
 
 
-        })
+        }).start()
         return super.onStartCommand(intent, flags, startId)
     }
 

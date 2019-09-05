@@ -94,7 +94,7 @@ class FullscreenActivity : AppCompatActivity() {
         }
 
         // TODO: S04M04-7 Register receiver
-        LocalBroadcastManager.getInstance(this).registerReceiver(imageDownloadReciever)
+        LocalBroadcastManager.getInstance(this).registerReceiver(imageDownloadReciever, intentFilter)
 
         // Set up the user interaction to manually show or hide the system UI.
         mContentView?.setOnClickListener { toggle() }
