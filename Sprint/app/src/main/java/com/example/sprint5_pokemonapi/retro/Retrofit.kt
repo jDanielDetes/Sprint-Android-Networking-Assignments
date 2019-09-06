@@ -1,5 +1,7 @@
 package com.example.sprint5_pokemonapi.retro
 
+import com.example.sprint5_pokemonapi.API.PokiAPI
+import com.example.sprint5_pokemonapi.model.Pokemon
 import com.google.gson.GsonBuilder
 import retrofit2.Call
 import retrofit2.Retrofit
@@ -20,7 +22,7 @@ object Retrofit {
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
 
-
+        return retrofit.create(PokiAPI::class.java).getpkmnList()
 
     }
 }
