@@ -9,12 +9,19 @@ import retrofit2.Call
 import retrofit2.Response
 
 class MainActivity : AppCompatActivity(),retrofit2.Callback<Pokemon> {
+    override fun onFailure(call: Call<Pokemon>, t: Throwable) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun onResponse(call: Call<Pokemon>, response: Response<Pokemon>) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btn_get_pkmn.setOnClickListener {
+
             Retrofit.Showpkmn().enqueue(this)
         }
     }
-}
+

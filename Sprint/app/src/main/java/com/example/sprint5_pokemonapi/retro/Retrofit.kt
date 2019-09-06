@@ -3,6 +3,8 @@ package com.example.sprint5_pokemonapi.retro
 import com.example.sprint5_pokemonapi.API.PokiAPI
 import com.example.sprint5_pokemonapi.model.Pokemon
 import com.google.gson.GsonBuilder
+import io.reactivex.internal.schedulers.RxThreadFactory
+import io.reactivex.plugins.RxJavaPlugins
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
